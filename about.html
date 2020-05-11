@@ -1,9 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>О нас</title>
+	<title>PROG - сайт для программистов</title>
+	<link rel="stylesheet" type="text/css" href="include/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="include/css/main.css">
+	<link rel="stylesheet" type="text/css" href="include/css/about.css">
+	<link rel="stylesheet" type="text/css" href="include/css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- /Head -->
 </head>
 <body>
-	О нас!
+	<!-- Header -->
+	<header>
+			<div class="logo">
+				<div class="logo__image"><img src="include/images/header/logo.svg" alt="prog"></div>
+				<div class="logo__text">PROG</div>
+			</div>
+			<div class="menu">
+				<ul class="menu__list">
+					<li class="menu__link"><a href="index.html">главная</a></li>
+					<li class="menu__link"><a href="#">наш телеграм</a></li>
+					<li class="menu__link"><a href="about.html">о нас</a></li>
+				</ul>
+			</div>
+			<div class="seacrh">
+				<input type="text" name="q" placeholder="ПОИСК ПО БЛОГУ">
+				<img src="include/images/header/search.svg" alt="search">
+			</div>
+			<!-- Burger menu -->
+			<div class="burger-menu">
+				<img src="include/images/header/burger-menu.svg">
+			</div>
+			<!-- /Burger menu -->
+	</header> 
+	<!-- /Header -->
+			<!-- Menu block -->
+			<div class="menu_block">
+				<nav>
+					<ul class="burger_menu_list">
+						<li class="burger_menu_link"><a href="#">Главная</a></li>
+						<li class="burger_menu_link"><a href="#">Наш телеграм</a></li>
+						<li class="burger_menu_link"><a href="#">О нас</a></li>
+					</ul> 
+				</nav>
+				<!-- Categoty -->
+			</div>
+			<!-- /Menu block -->
+
+			<!-- Chat menu -->
+			<div class="chat-menu">
+				<img src="include/images/header/chat.svg">
+			</div>
+			<!-- /Chat menu -->
+
+			<!-- Сам чат -->
+			<div class="block-chat">
+				<div class="wrapper-chat">
+					<div class="title-chat">
+						<h3>Чат</h3>
+					</div>
+					<div class="chat-text">
+						<div class="msg"><strong>Admin:</strong> Привет всем!</div>
+						<div class="msg"><strong>Alex:</strong> Привет!</div>
+						<div class="msg"><strong>Admin:</strong> Чем-то помочь?</div>
+						<div class="msg"><strong>Alex:</strong> Как поставить Django ?</div>
+
+					</div>
+					<div class="chat-message">
+						<textarea name="text" placeholder="Ведите сообщения"></textarea>
+					</div>
+					<div id="btn_send_message">
+						<input type="button" name="btn_send_message" value="Отправиь">
+					</div>
+				</div>
+			</div>
+			<!-- /Сам чат -->
+
+			<section class="about" id="about">
+				<div class="about__wrapper">
+					<h1>О нас</h1>
+					"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+				</div>
+			</section>
+
+	
+
+<footer>
+	<div class="footer__text">
+	© 2020. Автор проекта: Голубец Александр holubetss@gmail.com
+	</div> 
+</footer>
+
+	
+		<script type="text/javascript" src="include/js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="include/js/main.js"></script>
 </body>
 </html>
