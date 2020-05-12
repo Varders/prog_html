@@ -51,9 +51,18 @@
 }
 
 .info__title{
+}
+
+.info__title a{
 	font-weight: bold;
 	font-size: 24px;
 	color: #D9D9D9;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.info__title a:hover{
+	color: #d95a16;
 }
 
 .info__under-title{

@@ -151,3 +151,33 @@
 		width: 90%;
 	}
 }
+
+/* 1433px */
+@media screen and (max-width:1433px){
+	.detail__info{
+		width: 1000px !important;
+	}
+
+	.detail__population-article {
+   		 width: 1000px !important;
+		}
+}
+
+/* 917px */
+@media screen and (max-width:377px){
+	.poster__direction ul{
+		flex-direction: column;
+	}
+}
+
+/*1010px*/
+@media screen and (max-width:1031px){
+	.detail__info{
+		width: 90% !important;
+	}
+
+	.detail__population-article {
+   		width: 90% !important;
+	}
+
+}
