@@ -530,7 +530,8 @@ body{
 	height: 40px;
 	background: rgba(0, 0, 0, 0.4);
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	border-right: 5px solid #4638c9;
 }
 
 .category__other{
@@ -546,8 +547,9 @@ body{
 	height: 40px;
 	background: rgba(0, 0, 0, 0.4);
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	margin-bottom: 10px;
+	border-right: 5px solid #c93862;
 }
 
 .category__item a{
